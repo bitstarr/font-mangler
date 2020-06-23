@@ -14,6 +14,6 @@
         "default": "U+20-7E,U+80-FF,U+104-10F,U+118-11B,U+141-148,U+152-153,U+160-161,U+164-165,U+16E-16F,U+178-17E,U+2C6-2C7,U+2D8-2DD,U+2000-206F,U+20AC,U+2122,U+25CA,U+F8FF,U+FB00-FB06"
     },
     "scripts": {
-        "subset": "npx glyphhanger --whitelist=$npm_package_config_default --formats=woff2,woff --subset=$npm_package_config_in/*.ttf --output=$npm_package_config_out/"
+        "subset": "npx glyphhanger --whitelist=$npm_package_config_default --formats=woff2,woff --subset=$npm_package_config_in/*.{ttf,otf} --output=$npm_package_config_out/"
     }
 }
