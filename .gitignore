@@ -21,3 +21,10 @@ yarn.lock
 
 # Editor Settings
 .idea/*
+
+# Fonts
+*.ttf
+*.otf
+*.svg
+*.woff
+*.woff2

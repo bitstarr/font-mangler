@@ -4,6 +4,14 @@ Since the webfont generator of fontsquirrel is not reliable anymore, we need to 
 
 Basically it's litte convinience helper to use [glyphhanger](https://github.com/filamentgroup/glyphhanger/).
 
+You will to install `fonttools`, `brotli` and `zopfli` via python.
+
+```
+pip install fonttools
+pip install brotli
+pip install zopfli
+```
+
 ## Usage
 
 Put your source font filesd in the ``src`` folder. Now run
